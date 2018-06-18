@@ -1,0 +1,26 @@
+{
+    "name": "legato/asset",
+    "description": "Asset version management.",
+    "keywords": ["asset", "version", "images", "script"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Terry Osayawe Ogbemudia",
+            "email":"terry@devscreencast.com",
+            "homepage": "https://devscreencast.com"
+        }
+    ],
+    "require": {
+        "symfony/asset": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Legato\\Framework\\":""
+        },
+        "files":["src/functions/asset/helpers.php"]
+    },
+    "config":{
+        "optimize-autoloader":true
+    }
+}
