@@ -1,6 +1,6 @@
 <?php
 
-if(!file_exists('asset')){
+if(!function_exists('asset')){
 
     /**
      * Get versioned url for assets
